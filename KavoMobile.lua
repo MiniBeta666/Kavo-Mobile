@@ -1,17 +1,21 @@
+--[[
+    __  ____       _ ____       __        _____ _____ _____
+   /  |/  (_)___  (_) __ )___  / /_____ _/ ___// ___// ___/
+  / /|_/ / / __ \/ / __  / _ \/ __/ __ `/ __ \/ __ \/ __ \ 
+ / /  / / / / / / / /_/ /  __/ /_/ /_/ / /_/ / /_/ / /_/ / 
+/_/  /_/_/_/ /_/_/_____/\___/\__/\__,_/\____/\____/\____/  
+                                                           
+--]]
 local Kavo = {}
 
 local tween = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
 local input = game:GetService("UserInputService")
 local run = game:GetService("RunService")
-
 local Utility = {}
 local Objects = {}
 function Kavo:DraggingEnabled(frame, parent)
-        
     parent = parent or frame
-    
-    -- stolen from wally or kiriot, kek
     local dragging = false
     local dragInput, mousePos, framePos
 
