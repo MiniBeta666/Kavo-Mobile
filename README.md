@@ -6,6 +6,10 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniB
 ```lua
 local Window = Library.CreateLib("TITLE", "DarkTheme")
 ```
+## Create Tabs
+```lua
+local Tab = Window:NewTab("TabName")
+```
 ## Create Section
 ```lua
 local Section = Tab:NewSection("Section Name")
