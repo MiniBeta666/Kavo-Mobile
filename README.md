@@ -1,6 +1,6 @@
 # Loadstring
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniBeta666/Kavo-Mobile/main/source.lua", true))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniBeta666/Kavo-Mobile/main/KavoMobile.lua", true))()
 ```
 ## Create Window
 ```lua
