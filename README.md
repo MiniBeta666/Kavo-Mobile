@@ -2,6 +2,17 @@
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniBeta666/Kavo-Mobile/main/KavoMobile.lua", true))()
 ```
+## Dev Hub Window Style
+```lua
+local colors = {
+    SchemeColor = Color3.fromRGB(252, 240, 3),
+    Background = Color3.fromRGB(252, 3, 227),
+    Header = Color3.fromRGB(3, 23, 252),
+    TextColor = Color3.fromRGB(252, 3, 244),
+    ElementColor = Color3.fromRGB(0, 0, 0)
+}
+local Window = Library.CreateLib("TITLE", colors)
+```
 ## Create Window
 ```lua
 local Window = Library.CreateLib("TITLE", "DarkTheme")
